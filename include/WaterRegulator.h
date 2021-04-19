@@ -2,8 +2,6 @@
 
 class WaterRegulator : public RegulationSystem
 {
-};
-{
 private:
 public:
   WaterRegulator(/* args */);
