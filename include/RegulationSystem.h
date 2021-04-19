@@ -1,5 +1,6 @@
 #ifndef REGULATIONSYSTEM_H
 #define REGULATIONSYSTEM_H
+#pragma once
 
 class RegulationSystem
 {
@@ -13,7 +14,7 @@ protected:
 public:
   double GetGoalValue() { return goalValue; };
   bool getSystemState() { return systemState; }
-  void configUpdate();
+  virtual void configUpdate() = 0; //virtual angiver at baseklassen forventer barnet declarerer funktionen.
 };
 
 #endif

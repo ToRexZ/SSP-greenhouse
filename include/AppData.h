@@ -1,24 +1,14 @@
 #ifndef APPDATA_H
 #define APPDATA_H
+#pragma once
 
 class AppData
 {
 private:
-  bool systemState, otherStates;
-  int userinput;
+  bool systemState, waterState;
+  int plantType;
   double goalSettings;
 
 public:
-  AppData(/* args */);
-  ~AppData();
 };
-
-AppData::AppData(/* args */)
-{
-}
-
-AppData::~AppData()
-{
-}
-
 #endif

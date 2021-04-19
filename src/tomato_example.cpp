@@ -16,5 +16,7 @@ int main(int argc, char const *argv[])
     std::cout << "Goal water level: " << wr.GetGoalValue() << "\n";
     std::cout << "Water level: " << wr.getWaterLevel() << "\n";
     std::cout << "SystemState: " << wr.getSystemState() << "\n";
+    wr.configUpdate();
+    std::cout << "Goal water level: " << wr.GetGoalValue() << "\n";
     return 0;
 }

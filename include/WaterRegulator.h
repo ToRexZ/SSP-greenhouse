@@ -1,3 +1,4 @@
+#pragma once
 #include "RegulationSystem.h"
 
 class WaterRegulator : public RegulationSystem
@@ -11,4 +12,8 @@ public:
   //Constructors
   WaterRegulator(){};
   WaterRegulator(double tempGoal) { goalValue = tempGoal; };
+  void configUpdate() override
+  {
+    this->goalValue++;
+  };
 };
