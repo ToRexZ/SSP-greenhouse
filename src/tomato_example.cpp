@@ -8,7 +8,12 @@
 
 int main(int argc, char const *argv[])
 {
-    WaterRegulator wr;
+    double goal;
+
+    std::cout << "Set goal water level: ";
+    std::cin >> goal;
+    WaterRegulator wr = {goal};
+    std::cout << "Goal water level: " << wr.GetGoalValue() << "\n";
     std::cout << "Water level: " << wr.getWaterLevel() << "\n";
     std::cout << "SystemState: " << wr.getSystemState() << "\n";
     return 0;

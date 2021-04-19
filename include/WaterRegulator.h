@@ -8,4 +8,7 @@ private:
 public:
   //Waterlevel getter function
   int getWaterLevel() { return waterLevel; };
+  //Constructors
+  WaterRegulator(){};
+  WaterRegulator(double tempGoal) { goalValue = tempGoal; };
 };
