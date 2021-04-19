@@ -1,0 +1,10 @@
+^C:\USERS\VICTOR RISAGER\ONEDRIVE - AALBORG UNIVERSITET\2. SEMESTER\STRUKTURERET SYSTEM- OG PRODUKTUDVIKLING\SSP GREENHOUSE\BUILD\CMAKEFILES\299ABBA734E56FD17BDF5383124E32BE\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Victor Risager/OneDrive - Aalborg Universitet/2. Semester/Struktureret system- og produktudvikling/SSP Greenhouse" "-BC:/Users/Victor Risager/OneDrive - Aalborg Universitet/2. Semester/Struktureret system- og produktudvikling/SSP Greenhouse/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/Victor Risager/OneDrive - Aalborg Universitet/2. Semester/Struktureret system- og produktudvikling/SSP Greenhouse/build/ssp_greenhouse.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

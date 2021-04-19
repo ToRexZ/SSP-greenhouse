@@ -1,0 +1,10 @@
+cmake_minimum_required(VERSION 3.20.1)
+
+project(ssp_greenhouse)
+message("CMAKE_PROJECT_NAME = ${CMAKE_PROJECT_NAME}")
+include_directories(include)
+
+add_executable(tomato src/tomato_example.cpp include/Tomatoplant.cpp include/Tomatoplant.h)
+
+
+
