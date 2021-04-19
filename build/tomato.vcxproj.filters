@@ -12,6 +12,12 @@
     <ClInclude Include="C:\Users\Victor Risager\OneDrive - Aalborg Universitet\2. Semester\Struktureret system- og produktudvikling\SSP Greenhouse\include\Tomatoplant.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="C:\Users\Victor Risager\OneDrive - Aalborg Universitet\2. Semester\Struktureret system- og produktudvikling\SSP Greenhouse\include\RegulationSystem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Victor Risager\OneDrive - Aalborg Universitet\2. Semester\Struktureret system- og produktudvikling\SSP Greenhouse\include\WaterRegulator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="C:\Users\Victor Risager\OneDrive - Aalborg Universitet\2. Semester\Struktureret system- og produktudvikling\SSP Greenhouse\CmakeLists.txt" />

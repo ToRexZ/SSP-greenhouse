@@ -4,7 +4,7 @@ project(ssp_greenhouse)
 message("CMAKE_PROJECT_NAME = ${CMAKE_PROJECT_NAME}")
 include_directories(include)
 
-add_executable(tomato src/tomato_example.cpp include/Tomatoplant.cpp include/Tomatoplant.h)
+add_executable(tomato src/tomato_example.cpp include/Tomatoplant.cpp include/Tomatoplant.h include/RegulationSystem.h include/WaterRegulator.h)
 
 
 
