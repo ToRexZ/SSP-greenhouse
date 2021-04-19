@@ -4,28 +4,11 @@
     <ClCompile Include="C:\Users\Victor Risager\OneDrive - Aalborg Universitet\2. Semester\Struktureret system- og produktudvikling\SSP Greenhouse\src\tomato_example.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Victor Risager\OneDrive - Aalborg Universitet\2. Semester\Struktureret system- og produktudvikling\SSP Greenhouse\include\Tomatoplant.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="C:\Users\Victor Risager\OneDrive - Aalborg Universitet\2. Semester\Struktureret system- og produktudvikling\SSP Greenhouse\include\Tomatoplant.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="C:\Users\Victor Risager\OneDrive - Aalborg Universitet\2. Semester\Struktureret system- og produktudvikling\SSP Greenhouse\include\RegulationSystem.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="C:\Users\Victor Risager\OneDrive - Aalborg Universitet\2. Semester\Struktureret system- og produktudvikling\SSP Greenhouse\include\WaterRegulator.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="C:\Users\Victor Risager\OneDrive - Aalborg Universitet\2. Semester\Struktureret system- og produktudvikling\SSP Greenhouse\CmakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
-    <Filter Include="Header Files">
-      <UniqueIdentifier>{48657AFF-E5F2-39A3-912E-96362221C81E}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Source Files">
       <UniqueIdentifier>{C568046F-DF91-39FC-ADC8-B110850D9192}</UniqueIdentifier>
     </Filter>

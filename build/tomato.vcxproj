@@ -306,10 +306,6 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="C:\Users\Victor Risager\OneDrive - Aalborg Universitet\2. Semester\Struktureret system- og produktudvikling\SSP Greenhouse\src\tomato_example.cpp" />
-    <ClCompile Include="C:\Users\Victor Risager\OneDrive - Aalborg Universitet\2. Semester\Struktureret system- og produktudvikling\SSP Greenhouse\include\Tomatoplant.cpp" />
-    <ClInclude Include="C:\Users\Victor Risager\OneDrive - Aalborg Universitet\2. Semester\Struktureret system- og produktudvikling\SSP Greenhouse\include\Tomatoplant.h" />
-    <ClInclude Include="C:\Users\Victor Risager\OneDrive - Aalborg Universitet\2. Semester\Struktureret system- og produktudvikling\SSP Greenhouse\include\RegulationSystem.h" />
-    <ClInclude Include="C:\Users\Victor Risager\OneDrive - Aalborg Universitet\2. Semester\Struktureret system- og produktudvikling\SSP Greenhouse\include\WaterRegulator.h" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="C:\Users\Victor Risager\OneDrive - Aalborg Universitet\2. Semester\Struktureret system- og produktudvikling\SSP Greenhouse\build\ZERO_CHECK.vcxproj">
