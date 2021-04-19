@@ -4,13 +4,12 @@
 class RegulationSystem
 {
 private:
-  bool systemState;
+  bool systemState{true}; //Turned on by default
   float updateRate;
   double goalValue;
 
 public:
-  RegulationSystem(/* args */);
-  ~RegulationSystem();
+  bool getSystemState() { return systemState; }
   void configUpdate();
 };
 

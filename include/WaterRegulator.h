@@ -3,15 +3,9 @@
 class WaterRegulator : public RegulationSystem
 {
 private:
+  int waterLevel{1};
+
 public:
-  WaterRegulator(/* args */);
-  ~WaterRegulator();
+  //Waterlevel getter function
+  int getWaterLevel() { return waterLevel; };
 };
-
-WaterRegulator::WaterRegulator(/* args */)
-{
-}
-
-WaterRegulator::~WaterRegulator()
-{
-}

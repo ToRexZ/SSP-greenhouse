@@ -1,10 +1,15 @@
-// #include <stdio.h>
+//My includes
 #include "Tomatoplant.h"
+#include "RegulationSystem.h"
+#include "WaterRegulator.h"
+
+//Libraries
 #include <iostream>
+
 int main(int argc, char const *argv[])
 {
-    Tomatoplant hej = {1,5};
-    std::cout << hej.getCount() << std::endl;
-    std::cout << hej.getHeight() << std::endl;
+    WaterRegulator wr;
+    std::cout << "Water level: " << wr.getWaterLevel() << "\n";
+    std::cout << "SystemState: " << wr.getSystemState() << "\n";
     return 0;
 }
